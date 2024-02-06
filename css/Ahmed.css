@@ -84,7 +84,7 @@
   height: 100%;
 }
 }
-  /* End Globle Rules */
+ /* End Globle Rules */
   /*Start Header*/
   header{
     box-shadow: 0 0 10px #ddd;
@@ -271,7 +271,7 @@ header .mega-menu .links li a i {
 }
 /*Start Articles*/
 .articles .card{
-  transition: transform var(---main-transition, box-shadow var(--main-transition));
+  transition: transform var(--main-transition, box-shadow var(--main-transition));
 }
 .articles .card:hover{
   transform: translateY(-10px);
@@ -366,7 +366,7 @@ header .mega-menu .links li a i {
   border-color: transparent transparent white transparent;
   bottom: 0;
   right: 0;
-  transition: var(---main-transition);
+  transition: var(--main-transition);
 }
 .features .card:hover .img-quality::after{
   border-width: 170px 500px 170px 0;
@@ -457,7 +457,7 @@ header .mega-menu .links li a i {
   top: 0;
   right: 0;
   border-radius: 10px;
-  transition: var(---main-transition);
+  transition: var(--main-transition);
 }
 .team .box::before {
   z-index: -2 ;
@@ -533,7 +533,7 @@ header .mega-menu .links li a i {
 }
 .services .card {
   box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%) !important;
-  transition: var(---main-transition);
+  transition: var(--main-transition);
   position: relative;
 }
 .services .card::before {
